@@ -4,6 +4,8 @@ class Bell extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
+      height: this.props.height || "500px",
+      width: this.props.width || "100%",
       ...props,
     }
   }
@@ -11,10 +13,12 @@ class Bell extends React.Component {
     return (
       <>
         <div>
-            <iframe
+          <iframe
             src="https://bell.cti-tl.com/"
-            height="500px"
-            style={{background:'white'}}
+            height={this.state.height}
+            width={this.state.width}
+            style={{ background: "white" }}
+            title="bell"
           ></iframe>
         </div>
       </>
