@@ -13,7 +13,7 @@
     "chat ... ...... ... tool" 0px
     "chat ... footer ... tool" 120px
     "... ... ...... ... ..." 0px
-    / 300px 10px minmax(700px, 1fr) 10px 300px;
+    / 300px 10px minmax(600px, 1fr) 10px 300px;
 }
 
 .f > header {
