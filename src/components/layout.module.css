@@ -1,6 +1,6 @@
 .f {
   font-size: 16px;
-  max-width: 900px;
+  max-width: 1000px;
   height: 100%;
   margin: 0 auto;
   line-height: 2rem;
@@ -13,7 +13,7 @@
     "... ...... ... tool" 0px
     "... footer ... tool" 120px
     "... ...... ... ..." 0px
-    / 0px minmax(700px, 1fr) 5px 200px;
+    / 0px minmax(700px, 1fr) 5px 300px;
 }
 
 .f > header {
