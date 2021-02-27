@@ -9,6 +9,8 @@ body {
   text-align: center;
   color: white;
   background: radial-gradient(circle, rgb(41, 78, 17) 13%, rgb(10, 10, 8) 100%);
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
