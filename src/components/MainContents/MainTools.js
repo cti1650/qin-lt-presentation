@@ -1,4 +1,5 @@
 import * as React from "react"
+import Bell from "../../components/Tools/Bell/Bell"
 
 class MainTools extends React.Component {
   constructor(props) {
@@ -24,6 +25,7 @@ class MainTools extends React.Component {
             src="http://maruta.github.io/timekeeper/#t1=15:00&t2=20:00&t3=25:00&m=Click%20to%20edit%20this%20message"
             height="380px"
           ></iframe>
+          <Bell />
         </div>
       </>
     )
