@@ -16,7 +16,7 @@ export default ({ children }) => (
         <MainTools />
       </section>
       <section className={Styles.chat}>
-        <Chat height="650px" />
+        <Chat height="750px" />
       </section>
     </div>
       <Footer />
