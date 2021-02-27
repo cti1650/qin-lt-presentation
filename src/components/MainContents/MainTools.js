@@ -22,7 +22,7 @@ class MainTools extends React.Component {
             <div id="buttons"></div>
           </div>
           <script src="./js/script.js"></script>
-          <TimeKeeper t1="5:00" />
+          <TimeKeeper t1="5:00" t2="7:00" t3="8:00" />
           <Bell />
         </div>
       </>
