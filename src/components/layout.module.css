@@ -1,16 +1,11 @@
 .f {
   font-size: 16px;
-<<<<<<< HEAD
   max-width: 1300px;
-=======
-  max-width: 1000px;
->>>>>>> 92dccc00fdd48dc450ae54417ee13b46b4a332ca
   height: 100%;
   margin: 0 auto;
   line-height: 2rem;
   display: grid;
   grid-template:
-<<<<<<< HEAD
     "... ... ...... ... ..." 0px
     "chat ... header ... tool"
     "chat ... ...... ... tool" 0px
@@ -19,16 +14,6 @@
     "chat ... footer ... tool" 120px
     "... ... ...... ... ..." 0px
     / 300px 0px minmax(700px, 1fr) 5px 300px;
-=======
-    "... ...... ... ..." 0px
-    "... header ... tool"
-    "... ...... ... tool" 0px
-    "... center ... tool" 1fr
-    "... ...... ... tool" 0px
-    "... footer ... tool" 120px
-    "... ...... ... ..." 0px
-    / 0px minmax(700px, 1fr) 5px 300px;
->>>>>>> 92dccc00fdd48dc450ae54417ee13b46b4a332ca
 }
 
 .f > header {
