@@ -13,7 +13,13 @@ class MainContents extends React.Component {
         <div>
           <p>メッセージのご確認をお願いします。</p>
           <p>
-            <a href="https://qin-lt.vercel.app/">Chat App</a>
+            <a
+              href="https://qin-lt.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Chat App
+            </a>
           </p>
           <p>
             <span style={{ color: "red" }}>----Chat Appの画面を共有----</span>
@@ -114,11 +120,12 @@ class MainContents extends React.Component {
             </div>
           </p>
           <p>
-            <a href="https://bell.cti-tl.com">ベル</a>
-          </p>
-          <p>
-            <a href="http://maruta.github.io/timekeeper/#t1=15:00&t2=20:00&t3=25:00&m=Click%20to%20edit%20this%20message">
-              タイムキーパー
+            <a
+              href="https://bell.cti-tl.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ベル
             </a>
           </p>
         </div>
