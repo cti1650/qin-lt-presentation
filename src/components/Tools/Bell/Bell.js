@@ -17,7 +17,6 @@ class Bell extends React.Component {
             src="https://bell.cti-tl.com/"
             height={this.state.height}
             width={this.state.width}
-            style={{ background: "white" }}
             title="bell"
           ></iframe>
         </div>
