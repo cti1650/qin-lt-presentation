@@ -17,7 +17,7 @@ class TimeKeeper extends React.Component {
       <>
         <div>
           <iframe
-            src={`http://maruta.github.io/timekeeper/#t1=${this.state.h1}&t2=${this.state.h2}&t3=${this.state.h3}&m=Click%20to%20edit%20this%20message`}
+            src={`http://maruta.github.io/timekeeper/#t1=${this.state.t1}&t2=${this.state.t2}&t3=${this.state.t3}&m=Click%20to%20edit%20this%20message`}
             height={this.state.height}
             width={this.state.width}
             title="TimeKeeper"
