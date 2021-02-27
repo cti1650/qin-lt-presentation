@@ -1,19 +1,19 @@
 .f {
   font-size: 16px;
-  max-width: 1000px;
+  max-width: 1300px;
   height: 100%;
   margin: 0 auto;
   line-height: 2rem;
   display: grid;
   grid-template:
-    "... ...... ... ..." 0px
-    "... header ... tool"
-    "... ...... ... tool" 0px
-    "... center ... tool" 1fr
-    "... ...... ... tool" 0px
-    "... footer ... tool" 120px
-    "... ...... ... ..." 0px
-    / 0px minmax(700px, 1fr) 5px 300px;
+    "... ... ...... ... ..." 0px
+    "chat ... header ... tool"
+    "chat ... ...... ... tool" 0px
+    "chat ... center ... tool" 1fr
+    "chat ... ...... ... tool" 0px
+    "chat ... footer ... tool" 120px
+    "... ... ...... ... ..." 0px
+    / 300px 0px minmax(700px, 1fr) 5px 300px;
 }
 
 .f > header {
@@ -28,7 +28,14 @@
 .tools {
   grid-area: tool;
 }
+.chat {
+  grid-area: chat;
+}
 .tools > div {
+  position: sticky;
+  top: 0;
+}
+.chat > div {
   position: sticky;
   top: 0;
 }
