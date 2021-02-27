@@ -1,6 +1,6 @@
 import React from "react"
 import Header from "../components/header"
-import Footer from "../components/footer"
+import Footer from "./footer"
 import MainTools from "../components/MainContents/MainTools"
 import Chat from "../components/Tools/Chat/Chat"
 import Styles from "./layout.module.css"
@@ -16,9 +16,9 @@ export default ({ children }) => (
         <MainTools />
       </section>
       <section className={Styles.chat}>
-        <Chat height="650px" />
+        <Chat height="750px" />
       </section>
-      <Footer />
     </div>
+      <Footer />
   </>
 )

@@ -22,6 +22,10 @@
 .f > footer {
   grid-area: footer;
 }
+.footer {
+  position: sticky;
+  bottom: 0;
+}
 .test {
   grid-area: center;
 }
